@@ -12,7 +12,6 @@ class CateSpider(scrapy.Spider):
     level = 1
 
     def start_requests(self):
-
         urls = [
             'https://www.amazon.com/Best-Sellers/zgbs/',
         ]
